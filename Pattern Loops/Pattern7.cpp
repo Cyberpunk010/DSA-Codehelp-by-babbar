@@ -1,7 +1,7 @@
-// *
-// * *
-// * * *
-// * * * *
+// 1
+// 2 2
+// 3 3 3
+// 4 4 4 4
 
 #include <iostream>
 using namespace std;
@@ -12,14 +12,15 @@ int main(){
 
     int row = 1;
     while(row<=n){
-        int col = 1;
-        while(col<=row){
-            cout<<"*"<<" ";
-            col = col+1;
+        int col = row;
+        int j = 1;
+        while(j<=row){
+            cout<<col<<" "; 
+            j = j+1;
+            
         }
         cout<<endl;
         row = row+1;
-
     }
     return 0;
 }
