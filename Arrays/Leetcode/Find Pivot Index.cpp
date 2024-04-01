@@ -1,4 +1,4 @@
-// 724. Find Pivot Index
+// 724  Find Pivot Index
 
 class Solution {
 public:
