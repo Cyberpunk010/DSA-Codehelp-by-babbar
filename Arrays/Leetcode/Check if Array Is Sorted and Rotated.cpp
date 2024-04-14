@@ -1,4 +1,4 @@
-// 1752 Check if Array Is Sorted and Rotated
+// 1752. Check if Array Is Sorted and Rotated
 
 class Solution {
 public:
