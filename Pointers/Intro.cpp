@@ -10,5 +10,9 @@ int main(){
     cout<<ptr<<endl;
     cout<<pptr<<endl;
 
+    cout<<(ptr)++<<endl;
+    cout<<(ptr)<<endl;
+
+
     return 0;
 }
