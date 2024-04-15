@@ -2,19 +2,13 @@
 using namespace std;
 
 int main(){
-    int num = 10;
+    int num = 500;
     int *ptr = &num;
 
-    cout<<"Address of variable num is "<<ptr<<endl;
-    cout<<"Value of that address is "<<*ptr<<endl;
+    int **pptr = &ptr;
 
-    char ch = 'A';
-    char *ptr2 = &ch;
+    cout<<ptr<<endl;
+    cout<<pptr<<endl;
 
-    cout<<"Address of variable ch is "<<static_cast<void*>(ptr2)<<endl;
-    cout<<"Value of that address is "<<*ptr2<<endl;
-
-    
-
-return 0;
+    return 0;
 }
