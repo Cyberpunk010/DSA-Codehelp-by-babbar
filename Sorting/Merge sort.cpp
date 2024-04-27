@@ -33,6 +33,7 @@ void merge(int *arr,int s, int e){
         else{
             arr[mainArrayIndex++] = second[index2++];
         }
+        
     }
 
     while(index1<len1){
